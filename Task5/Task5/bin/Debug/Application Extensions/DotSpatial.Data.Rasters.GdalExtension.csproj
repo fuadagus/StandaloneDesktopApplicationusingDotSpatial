@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="GDAL" Version="3.4.1" />
+	  <PackageReference Include="GDAL.Native" Version="3.4.1" />
+	  <PackageReference Include="GDAL.Plugins" Version="3.4.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\Core\DotSpatial.Controls\DotSpatial.Controls.csproj">
+			<Private>False</Private>
+			<CopyLocal>False</CopyLocal>
+			<CopyLocalSatelliteAssemblies>False</CopyLocalSatelliteAssemblies>
+		</ProjectReference>
+		<ProjectReference Include="..\..\Core\DotSpatial.Data\DotSpatial.Data.csproj">
+			<Private>False</Private>
+			<CopyLocal>False</CopyLocal>
+			<CopyLocalSatelliteAssemblies>False</CopyLocalSatelliteAssemblies>
+		</ProjectReference>
+		<ProjectReference Include="..\..\Core\DotSpatial.Projections\DotSpatial.Projections.csproj">
+			<Private>False</Private>
+			<CopyLocal>False</CopyLocal>
+			<CopyLocalSatelliteAssemblies>False</CopyLocalSatelliteAssemblies>
+		</ProjectReference>
+		<ProjectReference Include="..\..\Core\DotSpatial.Serialization\DotSpatial.Serialization.csproj">
+			<Private>False</Private>
+			<CopyLocal>False</CopyLocal>
+			<CopyLocalSatelliteAssemblies>False</CopyLocalSatelliteAssemblies>
+		</ProjectReference>
+		<ProjectReference Include="..\..\Core\DotSpatial.Symbology\DotSpatial.Symbology.csproj">
+			<Private>False</Private>
+			<CopyLocal>False</CopyLocal>
+			<CopyLocalSatelliteAssemblies>False</CopyLocalSatelliteAssemblies>
+		</ProjectReference>
+	</ItemGroup>
+
+	<Target Name="CopyGdalDlls" AfterTargets="Build">
+		<PropertyGroup>
+			<MyFolder>$(SolutionDir)packages\gdal\3.4.1\lib\netstandard2.0\</MyFolder>
+		</PropertyGroup>
+		
+		<Copy SourceFiles="$(MyFolder)gdal_csharp.dll;$(MyFolder)gdalconst_csharp.dll;$(MyFolder)ogr_csharp.dll;$(MyFolder)osr_csharp.dll" DestinationFolder="$(OutputPath)" SkipUnchangedFiles="false" />
+	</Target>
+
+</Project>

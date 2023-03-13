@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>$author$</authors>
+    <owners />
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/DotSpatial/DotSpatial/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <summary />
+    <language>en-US</language>
+    <tags>Spatial GIS DotSpatial</tags>
+  </metadata>
+  <files>
+    <file src="..\Release\bin\Plugins\GDAL\**\*.*" target="lib\net472\" />
+  </files>
+</package>

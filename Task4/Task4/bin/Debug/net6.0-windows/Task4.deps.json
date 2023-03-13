@@ -1,0 +1,539 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Task4/1.0.0": {
+        "dependencies": {
+          "DotSpatial.Controls": "4.0.656",
+          "DotSpatial.Data": "4.0.656",
+          "DotSpatial.Data.Forms": "4.0.656",
+          "DotSpatial.Projections": "4.0.656",
+          "DotSpatial.Symbology": "4.0.656",
+          "DotSpatial.Topology": "1.9.0"
+        },
+        "runtime": {
+          "Task4.dll": {}
+        }
+      },
+      "DotSpatial.Controls/4.0.656": {
+        "dependencies": {
+          "DotSpatial.Data": "4.0.656",
+          "DotSpatial.Data.Forms": "4.0.656",
+          "DotSpatial.Extensions": "4.0.656",
+          "DotSpatial.Modeling.Forms": "4.0.656",
+          "DotSpatial.Projections": "4.0.656",
+          "DotSpatial.Projections.Forms": "4.0.656",
+          "DotSpatial.Serialization": "4.0.656",
+          "DotSpatial.Symbology": "4.0.656",
+          "DotSpatial.Symbology.Forms": "4.0.656",
+          "NetTopologySuite": "2.4.0"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/DotSpatial.Controls.dll": {
+            "assemblyVersion": "4.0.656.0",
+            "fileVersion": "4.0.656.0"
+          }
+        },
+        "resources": {
+          "lib/net6.0-windows7.0/de-DE/DotSpatial.Controls.resources.dll": {
+            "locale": "de-DE"
+          },
+          "lib/net6.0-windows7.0/it-IT/DotSpatial.Controls.resources.dll": {
+            "locale": "it-IT"
+          },
+          "lib/net6.0-windows7.0/pt-BR/DotSpatial.Controls.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/zh-CN/DotSpatial.Controls.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "DotSpatial.Data/4.0.656": {
+        "dependencies": {
+          "DotSpatial.NTSExtension": "4.0.656",
+          "DotSpatial.Projections": "4.0.656",
+          "DotSpatial.Serialization": "4.0.656",
+          "NetTopologySuite": "2.4.0",
+          "System.ComponentModel.Composition": "6.0.0",
+          "System.Data.OleDb": "6.0.0",
+          "System.Drawing.Common": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/DotSpatial.Data.dll": {
+            "assemblyVersion": "4.0.656.0",
+            "fileVersion": "4.0.656.0"
+          }
+        }
+      },
+      "DotSpatial.Data.Forms/4.0.656": {
+        "dependencies": {
+          "DotSpatial.Data": "4.0.656",
+          "DotSpatial.Projections.Forms": "4.0.656",
+          "DotSpatial.Serialization": "4.0.656",
+          "DotSpatial.Symbology": "4.0.656"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/DotSpatial.Data.Forms.dll": {
+            "assemblyVersion": "4.0.656.0",
+            "fileVersion": "4.0.656.0"
+          }
+        },
+        "resources": {
+          "lib/net6.0-windows7.0/zh-CN/DotSpatial.Data.Forms.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "DotSpatial.Extensions/4.0.656": {
+        "dependencies": {
+          "System.ComponentModel.Composition": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/DotSpatial.Extensions.dll": {
+            "assemblyVersion": "4.0.656.0",
+            "fileVersion": "4.0.656.0"
+          }
+        }
+      },
+      "DotSpatial.Modeling.Forms/4.0.656": {
+        "dependencies": {
+          "DotSpatial.Data": "4.0.656",
+          "DotSpatial.Data.Forms": "4.0.656",
+          "DotSpatial.Extensions": "4.0.656",
+          "DotSpatial.Projections": "4.0.656",
+          "DotSpatial.Projections.Forms": "4.0.656",
+          "DotSpatial.Symbology": "4.0.656",
+          "DotSpatial.Symbology.Forms": "4.0.656",
+          "NetTopologySuite": "2.4.0"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/DotSpatial.Modeling.Forms.dll": {
+            "assemblyVersion": "4.0.656.0",
+            "fileVersion": "4.0.656.0"
+          }
+        },
+        "resources": {
+          "lib/net6.0-windows7.0/zh-CN/DotSpatial.Modeling.Forms.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-MO/DotSpatial.Modeling.Forms.resources.dll": {
+            "locale": "zh-MO"
+          }
+        }
+      },
+      "DotSpatial.NTSExtension/4.0.656": {
+        "dependencies": {
+          "NetTopologySuite": "2.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/DotSpatial.NTSExtension.dll": {
+            "assemblyVersion": "4.0.656.0",
+            "fileVersion": "4.0.656.0"
+          }
+        }
+      },
+      "DotSpatial.Projections/4.0.656": {
+        "runtime": {
+          "lib/net6.0/DotSpatial.Projections.dll": {
+            "assemblyVersion": "4.0.656.0",
+            "fileVersion": "4.0.656.0"
+          }
+        }
+      },
+      "DotSpatial.Projections.Forms/4.0.656": {
+        "dependencies": {
+          "DotSpatial.Projections": "4.0.656"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/DotSpatial.Projections.Forms.dll": {
+            "assemblyVersion": "4.0.656.0",
+            "fileVersion": "4.0.656.0"
+          }
+        },
+        "resources": {
+          "lib/net6.0-windows7.0/cs/DotSpatial.Projections.Forms.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net6.0-windows7.0/de-DE/DotSpatial.Projections.Forms.resources.dll": {
+            "locale": "de-DE"
+          },
+          "lib/net6.0-windows7.0/de/DotSpatial.Projections.Forms.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/el/DotSpatial.Projections.Forms.resources.dll": {
+            "locale": "el"
+          },
+          "lib/net6.0-windows7.0/it-IT/DotSpatial.Projections.Forms.resources.dll": {
+            "locale": "it-IT"
+          },
+          "lib/net6.0-windows7.0/ja-JP/DotSpatial.Projections.Forms.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net6.0-windows7.0/lt/DotSpatial.Projections.Forms.resources.dll": {
+            "locale": "lt"
+          },
+          "lib/net6.0-windows7.0/nl/DotSpatial.Projections.Forms.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net6.0-windows7.0/pt-BR/DotSpatial.Projections.Forms.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt/DotSpatial.Projections.Forms.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ro/DotSpatial.Projections.Forms.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net6.0-windows7.0/th/DotSpatial.Projections.Forms.resources.dll": {
+            "locale": "th"
+          },
+          "lib/net6.0-windows7.0/vi-VN/DotSpatial.Projections.Forms.resources.dll": {
+            "locale": "vi-VN"
+          },
+          "lib/net6.0-windows7.0/zh-CN/DotSpatial.Projections.Forms.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "DotSpatial.Serialization/4.0.656": {
+        "runtime": {
+          "lib/net6.0/DotSpatial.Serialization.dll": {
+            "assemblyVersion": "4.0.656.0",
+            "fileVersion": "4.0.656.0"
+          }
+        }
+      },
+      "DotSpatial.Symbology/4.0.656": {
+        "dependencies": {
+          "DotSpatial.Data": "4.0.656",
+          "DotSpatial.NTSExtension": "4.0.656",
+          "DotSpatial.Projections": "4.0.656",
+          "DotSpatial.Serialization": "4.0.656",
+          "NetTopologySuite": "2.4.0",
+          "System.Resources.Extensions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/DotSpatial.Symbology.dll": {
+            "assemblyVersion": "4.0.656.0",
+            "fileVersion": "4.0.656.0"
+          }
+        },
+        "resources": {
+          "lib/net6.0-windows7.0/de-DE/DotSpatial.Symbology.resources.dll": {
+            "locale": "de-DE"
+          }
+        }
+      },
+      "DotSpatial.Symbology.Forms/4.0.656": {
+        "dependencies": {
+          "DotSpatial.Data": "4.0.656",
+          "DotSpatial.Data.Forms": "4.0.656",
+          "DotSpatial.Extensions": "4.0.656",
+          "DotSpatial.Projections": "4.0.656",
+          "DotSpatial.Projections.Forms": "4.0.656",
+          "DotSpatial.Serialization": "4.0.656",
+          "DotSpatial.Symbology": "4.0.656",
+          "NetTopologySuite": "2.4.0"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/DotSpatial.Symbology.Forms.dll": {
+            "assemblyVersion": "4.0.656.0",
+            "fileVersion": "4.0.656.0"
+          }
+        },
+        "resources": {
+          "lib/net6.0-windows7.0/cs/DotSpatial.Symbology.Forms.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net6.0-windows7.0/de-DE/DotSpatial.Symbology.Forms.resources.dll": {
+            "locale": "de-DE"
+          },
+          "lib/net6.0-windows7.0/en-US/DotSpatial.Symbology.Forms.resources.dll": {
+            "locale": "en-US"
+          },
+          "lib/net6.0-windows7.0/it-IT/DotSpatial.Symbology.Forms.resources.dll": {
+            "locale": "it-IT"
+          },
+          "lib/net6.0-windows7.0/it/DotSpatial.Symbology.Forms.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net6.0-windows7.0/pt-BR/DotSpatial.Symbology.Forms.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/zh-CN/DotSpatial.Symbology.Forms.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "DotSpatial.Topology/1.9.0": {
+        "dependencies": {
+          "DotSpatial.Serialization": "4.0.656"
+        },
+        "runtime": {
+          "lib/net40-Client/DotSpatial.Topology.dll": {
+            "assemblyVersion": "1.9.0.0",
+            "fileVersion": "1.9.0.0"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/6.0.0": {},
+      "NetTopologySuite/2.4.0": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NetTopologySuite.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "System.ComponentModel.Composition/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.ComponentModel.Composition.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/6.0.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "6.0.0",
+          "System.Security.Permissions": "6.0.0"
+        }
+      },
+      "System.Data.OleDb/6.0.0": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "6.0.0",
+          "System.Diagnostics.PerformanceCounter": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Data.OleDb.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Data.OleDb.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Diagnostics.PerformanceCounter/6.0.0": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "6.0.0"
+        }
+      },
+      "System.Drawing.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0"
+        }
+      },
+      "System.Memory/4.5.3": {},
+      "System.Resources.Extensions/6.0.0": {},
+      "System.Security.AccessControl/6.0.0": {},
+      "System.Security.Cryptography.ProtectedData/6.0.0": {},
+      "System.Security.Permissions/6.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "6.0.0",
+          "System.Windows.Extensions": "6.0.0"
+        }
+      },
+      "System.Windows.Extensions/6.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "6.0.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Task4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotSpatial.Controls/4.0.656": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gK2vC0YBU/1T49Ar/2Pg/lTJy9IDGlgHs3aVJwv8W3cipNdroPw8VYHN/r+mJrBEI5h/TJQtEDwqPGFGx8pH6w==",
+      "path": "dotspatial.controls/4.0.656",
+      "hashPath": "dotspatial.controls.4.0.656.nupkg.sha512"
+    },
+    "DotSpatial.Data/4.0.656": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F/z0YTbEkp7NbCHrmKkJTELIzNyLz+JHNCuU5K1JOBsc9CutIRXeaAg9MrTfkm+/Wg9lZ3wt04qb8MKcAwy9Jw==",
+      "path": "dotspatial.data/4.0.656",
+      "hashPath": "dotspatial.data.4.0.656.nupkg.sha512"
+    },
+    "DotSpatial.Data.Forms/4.0.656": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HRRKrHG1u0ju/BfxE9C8DD7o5AN5ygw7+rFjF82D/S2+I/8wijolcdQlXpGwfTspZZ0C67z6ft8SJmuxBsrHpA==",
+      "path": "dotspatial.data.forms/4.0.656",
+      "hashPath": "dotspatial.data.forms.4.0.656.nupkg.sha512"
+    },
+    "DotSpatial.Extensions/4.0.656": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yuMuKo2QB6DKgy3N2NGz47QhHDQ98ScTE/b/m8YqP4Rp+aa828Vw0LIINg3Lgwkj+hSY0rsW6Pil9tGIBc+UUA==",
+      "path": "dotspatial.extensions/4.0.656",
+      "hashPath": "dotspatial.extensions.4.0.656.nupkg.sha512"
+    },
+    "DotSpatial.Modeling.Forms/4.0.656": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xrN2EbFiIJU8BMNdkUPkUaBgu/gFp0jaJKRGsYV/VqW2RNApn9MN9ip0Z85Mm8BBvGUtmNMkZEMA/5N9gCUwhg==",
+      "path": "dotspatial.modeling.forms/4.0.656",
+      "hashPath": "dotspatial.modeling.forms.4.0.656.nupkg.sha512"
+    },
+    "DotSpatial.NTSExtension/4.0.656": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4Ak9pt0mxMbukyAFcLLCID2X2hhz+nbFU9JD0XkCgMvOxTv8ZeeO9i22eDE2GaavySpFozlHj8whO4lpUeqqkg==",
+      "path": "dotspatial.ntsextension/4.0.656",
+      "hashPath": "dotspatial.ntsextension.4.0.656.nupkg.sha512"
+    },
+    "DotSpatial.Projections/4.0.656": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RpPgQohZFYFMKpdBfd++auuud1aSjxou6zesRInoQlQLXSwHgGQRCbMflMUzTpjW0mNQq3HnHEP7QfqvCK67rg==",
+      "path": "dotspatial.projections/4.0.656",
+      "hashPath": "dotspatial.projections.4.0.656.nupkg.sha512"
+    },
+    "DotSpatial.Projections.Forms/4.0.656": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B+Ol/8VIUpl6kV6IEHqEW1CG11vgGq6Q9n9jtzKqXQ2YS6VBMBPzdcxtTM/bjC499oF0AxVOGpr+UIbuEh7Mcg==",
+      "path": "dotspatial.projections.forms/4.0.656",
+      "hashPath": "dotspatial.projections.forms.4.0.656.nupkg.sha512"
+    },
+    "DotSpatial.Serialization/4.0.656": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/VVWb0MAJLrF+GHaFcV4xRMhJp4JHg46RoWnaxjEEXAqnMZcNqmh962hoV62FBauiZZHNIhnDglfD5bKvuWgnw==",
+      "path": "dotspatial.serialization/4.0.656",
+      "hashPath": "dotspatial.serialization.4.0.656.nupkg.sha512"
+    },
+    "DotSpatial.Symbology/4.0.656": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vndaoJzey9avgFm/g+M7yaM0HiPY2Ptj8j1tVTOEQj2QG8y0qn1spL4Dqlo5HYGBmL+QTtExtSNATOd6Jjb6ZQ==",
+      "path": "dotspatial.symbology/4.0.656",
+      "hashPath": "dotspatial.symbology.4.0.656.nupkg.sha512"
+    },
+    "DotSpatial.Symbology.Forms/4.0.656": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ccBwybrKV5/MCFVLQ1MO9rLSNzId8HrnGjUC62oUhItU3fYH6nukNCI6wmasb4+kztWNUduMgQ636q60+gK56g==",
+      "path": "dotspatial.symbology.forms/4.0.656",
+      "hashPath": "dotspatial.symbology.forms.4.0.656.nupkg.sha512"
+    },
+    "DotSpatial.Topology/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tU/o3+U9xSThRuZWmkx8xzkRsPwtbS32sXAnCSZTyK6HHAC2j3RnyGTjFY09lFxYcueTI/CWQU7QCP73I+v3PQ==",
+      "path": "dotspatial.topology/1.9.0",
+      "hashPath": "dotspatial.topology.1.9.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
+      "path": "microsoft.win32.systemevents/6.0.0",
+      "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
+    "NetTopologySuite/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dGA7ZcCRn664AcusGJdva5r+fvQ2mfUAaBX9QLC3fwtiFi05fEOLqzZ5tTg+MWF0xCy5iCaEDYAcxnB2eLJMdQ==",
+      "path": "nettopologysuite/2.4.0",
+      "hashPath": "nettopologysuite.2.4.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Composition/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-60Qv+F7oxomOjJeTDA5Z4iCyFbQ0B/2Mi5HT+13pxxq0lVnu2ipbWMzFB+RWKr3wWKA8BSncXr9PH/fECwMX5Q==",
+      "path": "system.componentmodel.composition/6.0.0",
+      "hashPath": "system.componentmodel.composition.6.0.0.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7T+m0kDSlIPTHIkPMIu6m6tV6qsMqJpvQWW2jIc2qi7sn40qxFo0q+7mEQAhMPXZHMKnWrnv47ntGlM/ejvw3g==",
+      "path": "system.configuration.configurationmanager/6.0.0",
+      "hashPath": "system.configuration.configurationmanager.6.0.0.nupkg.sha512"
+    },
+    "System.Data.OleDb/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LQ8PjTIF1LtrrlGiyiTVjAkQtTWKm9GSNnygIlWjhN9y88s7xhy6DUNDDkmQQ9f6ex7mA4k0Tl97lz/CklaiLg==",
+      "path": "system.data.oledb/6.0.0",
+      "hashPath": "system.data.oledb.6.0.0.nupkg.sha512"
+    },
+    "System.Diagnostics.PerformanceCounter/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gbeE5tNp/oB7O8kTTLh3wPPJCxpNOphXPTWVs1BsYuFOYapFijWuh0LYw1qnDo4gwDUYPXOmpTIhvtxisGsYOQ==",
+      "path": "system.diagnostics.performancecounter/6.0.0",
+      "hashPath": "system.diagnostics.performancecounter.6.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
+      "path": "system.drawing.common/6.0.0",
+      "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Resources.Extensions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pBnVzNQYd0OHqh0VLu/hi0zFOTtyF8QwtziQBmzX/ZtVOea4+JEVOGu29DHeSOA0a9SFrYjQorBrOLuKLhcMNQ==",
+      "path": "system.resources.extensions/6.0.0",
+      "hashPath": "system.resources.extensions.6.0.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AUADIc0LIEQe7MzC+I0cl0rAT8RrTAKFHl53yHjEUzNVIaUlhFY11vc2ebiVJzVBuOzun6F7FBA+8KAbGTTedQ==",
+      "path": "system.security.accesscontrol/6.0.0",
+      "hashPath": "system.security.accesscontrol.6.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rp1gMNEZpvx9vP0JW0oHLxlf8oSiQgtno77Y4PLUBjSiDYoD77Y8uXHr1Ea5XG4/pIKhqAdxZ8v8OTUtqo9PeQ==",
+      "path": "system.security.cryptography.protecteddata/6.0.0",
+      "hashPath": "system.security.cryptography.protecteddata.6.0.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T/uuc7AklkDoxmcJ7LGkyX1CcSviZuLCa4jg3PekfJ7SU0niF0IVTXwUiNVP9DSpzou2PpxJ+eNY2IfDM90ZCg==",
+      "path": "system.security.permissions/6.0.0",
+      "hashPath": "system.security.permissions.6.0.0.nupkg.sha512"
+    },
+    "System.Windows.Extensions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
+      "path": "system.windows.extensions/6.0.0",
+      "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    }
+  }
+}
